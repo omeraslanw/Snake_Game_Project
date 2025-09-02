@@ -16,6 +16,7 @@ namespace Snake_Game_Project
         {
             InitializeComponent();
         }
+
         int score = 0;
         Panel part;
         Panel apple = new Panel();
@@ -87,7 +88,6 @@ namespace Snake_Game_Project
         }
         void removeApple()
         {
-
             if (snake[0].Location == apple.Location)
             {
                 score += 10;
@@ -148,11 +148,17 @@ namespace Snake_Game_Project
 
         private void btnStart_Click_1(object sender, EventArgs e)
         {
-            skorLbl.Text = "0";
-            score= 0;
+            score = 0;
+            timer1.Stop();
+            timer1.Interval = 100;
+            skorLbl.Text = score.ToString();
             createApple();
+
+            foreach (Panel part in snake)
+            {
+                panel1.Controls.Remove(part);
+            }
             snake.Clear();
-           
 
             part = new Panel();
             part.Location = new Point(200, 200);
