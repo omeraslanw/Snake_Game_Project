@@ -27,7 +27,7 @@ Bu oyun, C# Forms ve .NET Framework kullanılarak oluşturulmuştur. Oyunun amac
 ## Uygulama Görselleri
 
 ### Oynanış
-![oynanış](https://github.com/omeraslanw/Flappy_Bird_Project/blob/master/oynan%C4%B1%C5%9F.png)
+![oynanış](https://github.com/omeraslanw/Snake_Game_Project/blob/master/oyun.png)
 
 ### Bitiş Ekranı
-![bitiş](https://github.com/omeraslanw/Flappy_Bird_Project/blob/master/game%20over.png)
+![bitiş](https://github.com/omeraslanw/Snake_Game_Project/blob/master/oyun%20bitti.png)
